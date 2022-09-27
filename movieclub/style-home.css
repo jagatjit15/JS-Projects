@@ -1,0 +1,47 @@
+.bg-custom{
+    background-color: black;
+     
+}
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link{
+    color: rgb(253, 251, 251) !important;
+    font-weight: 500 !important;
+}
+
+.btn-custom{
+    background-color: #09ff15 !important;
+    font-style: oblique;
+    font-size: 30px;
+    font-weight: 1000 !important;
+    color:rgb(0, 0, 0) !important;
+   
+}
+
+.btn-collection{
+      max-width: 150px;
+    margin: 3em auto;
+    border-radius: 5px;
+    padding-bottom: 0%;
+    
+}
+
+.img-card{
+    margin: 5px 0px;
+    transition: .1s;
+}
+.img-card:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.btn-collection-playing{
+     
+    max-width: 110px;
+    margin:  2em auto;
+}

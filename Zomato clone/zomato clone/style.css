@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Open+Sans+Condensed:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+   
+}
+.top{
+    width: 100%;
+    height: 450px;
+}
+.top-img > img{
+    position: absolute;
+    width: 100%;
+    height: 450px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+   position: relative;
+}
+nav{
+    width: 82%;
+    height: 80px;
+
+}
+.nav-bar ul{
+    display: flex;
+   
+}
+.nav-bar ul > li{
+    list-style: none;
+    margin: 23.5px 0px;
+}
+#download{
+    margin-right: 4px;
+}
+ #restaurant{
+   margin-left: 660px;
+}
+#restaurant > a {
+    font-size: 19.5px;
+    letter-spacing: -0.5px;
+    padding: 0px 6px;
+}
+
+#log-in{
+   margin-left: 28px;
+}
+#log-in > a {
+    font-size: 19.5px;
+    letter-spacing: -0.5px;
+    padding: 0px 6px;
+}
+#sign-up{
+   margin-left: 28px;
+}
+#sign-up > a {
+    font-size: 19.5px;
+    letter-spacing: -0.5px;
+    padding: 0px 6px;
+}
+.nav-bar ul > li > a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Baloo 2', cursive;
+}
+.zomato-w > img{
+    position: relative;
+    height: 61px;
+    display: block;
+    margin: 26px auto 0px auto;
+}
+.w-line{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    line-height: 2.98;
+    word-spacing: 5px;
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+.city-name{
+    font-family: 'Baloo 2', cursive;
+}
+.search-bar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.item-location-input{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 58%;
+    height: 55px;
+    background: #ffffff;
+    border-radius: 10px
+}
+.location-bar{
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+}
+#loc-svg{
+    fill: #fd6767;
+    width: 20px;
+    height: 24px;
+    margin: 16px 5px;
+    padding: 3px;
+}
+.location-bar > input{
+    background: none;
+    border: none;
+    font-size: 15px;
+    width: 210px;
+    outline: 0px;
+    padding: 10px 3px;
+}
+#d-down-svg{
+    fill: #767070;
+    width: 19px;
+    height: 26px;
+    margin: 14px 0px;
+    padding: 3px;
+    cursor: pointer;
+}
+.devider-line{
+    width: 0.3%;
+    background: #d5d0d0;
+    height: 26px;
+    margin: 14px 10px;
+}
+.item-search{
+    display: flex;
+    flex-direction: row;
+    width: 66.7%;
+}
+
+#sear-svg{
+    fill: #a7a7a7;
+    width: 28px;
+    height: 30px;
+    margin: 12px 4px;
+    padding: 2px;
+}
+.item-search > input{
+    background: none;
+    border: none;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    outline: 0px;
+    padding: 10px 3px;
+}
+.collections-and-services{
+    margin-top: 20px;
+    margin-bottom: 115px;
+    width: 100%;
+    display: block;
+    align-items: center;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.serv-types{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+.st-container{
+    width: 253px;
+    margin-right: 10px;
+    border-radius: 10px;
+    height: 270px;
+    border: 1px solid #9b9b9b;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.st-container:hover{
+    transform: scale(1.045);
+}
+
+.st-container img{
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+    height: 206px;
+    width: 100%;
+}
+.st-container h2{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Baloo 2', cursive;
+    color: #292626;
+}
+
+.c-container h1{
+   font-family: 'Baloo 2', cursive;
+   font-weight: 600;
+   letter-spacing: 0.5px;
+}
+.collections{
+    margin-top: 50px;
+   
+
+}
+ .c-m-headings h1{
+    margin-left: 147px;
+    font-size: 46px;
+    padding: 4px;
+    letter-spacing: 0.99px;
+}
+ .more-links{
+    display: flex;
+    margin-bottom: 40px;
+
+}
+.more-links h6{
+    margin-left: 152px;
+    font-size: 19px;
+    font-weight: 100;
+    letter-spacing: 0.7px;
+    margin-right: 160px;
+}
+.more-links a{
+    margin-top: -2px;
+    text-decoration: none;
+    letter-spacing: 0.6px;
+    font-size: 18px;
+    color: #fd6767;
+}
+.more-colle{
+    margin-right: 9px;
+}
+.right-a{
+    height: 19px;
+    fill: #fd6767;
+    text-align: center;
+    margin-bottom: -5px;
+}
+.trend-best-screenings{
+    display: flex;
+    flex-direction: row;
+    margin-left: 136px;
+}
+.tbs-p-img{
+    width: 100%;
+    margin: 10px 9px 0px 7px;
+    cursor: pointer;
+}
+.tbs-p-img img{
+    height: 298px;
+    border: 0.2px solid #bbb8b8;
+    width: 252px;
+    border-radius: 9px
+}
+.tbs-para{
+    margin-top: -68px;
+}
+
+.tbs-para p{
+    padding: 4px 0px;
+    text-shadow: 2px 0px 6px black;
+    font-size: 20px;
+    font-weight: inherit;
+    margin-left: 12px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+.tbs-para p + p{
+   font-size: 15px;
+   cursor: pointer;
+}
+.more-p{
+    height: 18px;
+    margin-bottom: -5px;
+    fill: #fffefe;
+    cursor: pointer;
+}
+.all-places{
+    margin-top: 40px;
+    margin-bottom: 140px;
+}
+.places-container{
+    width: 80%;
+    margin: 0% 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 41px;
+}
+.place-name{
+    display: flex;
+    height: 64px;
+    border: 0.4px solid #c5c1c1;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0px 0.2px 2px #aba;
+}
+.place-name:hover{
+    box-shadow: 0px 2px 5px #b8b8b8;
+}
+.title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: inherit;
+    letter-spacing: 0.4px;
+    margin: 25px 0px;
+    font-weight: 100;
+    font-family: Okra,Helvetica,sans-serif;
+}
+.city-name2{
+    font-weight: bold;
+    font-family: 'Baloo 2', cursive;
+}
+ .place-name .pn-box{
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+ }
+ .pn-box > p{
+    font-size: 19px;
+    margin: 19px;
+    font-family: sans-serif;
+ }
+.place-name .i-box{
+    width: 5%;
+    display: block;
+    margin: auto;
+    font-size: 13px;
+}
+.download-details{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 251, 247);
+    height: 560px;
+}
+.dd-box{
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+.mobile-img{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+.mobile-img img{
+    height: 90%;
+    margin: 30px 0px;
+}
+.e-contact{
+    width: 60%;
+}
+.e-contact .h-p{
+    margin-top: 55px;
+}
+.e-contact .h-p > h2{
+    font-size: 58px;
+    word-spacing: 5px;
+    margin-left: 7px;
+}
+.e-contact .h-p > p{
+    margin-top: 14px;
+    margin-left: 7px;
+    letter-spacing: 0.5px;
+    word-spacing: 2.5px;
+    font-size: 21px;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 33%;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-size: 20px;
+}
+.radio{
+    width: 30px;
+}
